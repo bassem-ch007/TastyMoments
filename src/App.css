@@ -1,0 +1,117 @@
+/* Navbar */
+.nav-container {
+  align-items: center;
+  position: relative;
+  padding-left: 0 !important;
+}
+
+/* Logo + Tasty Moments on the left */
+.brand {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+}
+
+.logo-image {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+/* Navigation in the center */
+.nav-links {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Search + Login on the right */
+.nav-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* search icon */
+.search-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+/* Hero */
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f8f1e7;
+}
+
+.hero h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+
+/* Carousel */
+
+.carousel-image {
+  height: 400px;
+  object-fit: cover;
+}
+
+
+/* Popular Recipes */
+
+.recipes {
+  padding: 50px 0;
+}
+
+.recipes h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+/* Cards */
+.recipe-card {
+  height: 430px !important;
+  margin-bottom: 20px;
+}
+
+.recipe-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.recipe-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-card .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+/* Footer */
+
+footer {
+  background-color: #212529 !important;
+  color: white !important;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
